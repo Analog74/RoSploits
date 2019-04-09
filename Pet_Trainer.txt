@@ -1,0 +1,572 @@
+-- Pet Trainer Gui by Kamel74
+-- Version: .1
+-- 
+local PetTrainerGui = Instance.new("ScreenGui")
+local SploitFrame = Instance.new("Frame")
+local MainHeader = Instance.new("Frame")
+local CloseAnalogGui = Instance.new("TextButton")
+local Title = Instance.new("TextButton")
+local LogoFrame = Instance.new("Frame")
+local AnalogLogo = Instance.new("ImageLabel")
+local AutoFarmBtn = Instance.new("TextButton")
+local RunSpeed = Instance.new("TextButton")
+local Teleport = Instance.new("Frame")
+local T6 = Instance.new("TextButton")
+local T7 = Instance.new("TextButton")
+local T2 = Instance.new("TextButton")
+local T3 = Instance.new("TextButton")
+local T8 = Instance.new("TextButton")
+local T4 = Instance.new("TextButton")
+local T9 = Instance.new("TextButton")
+local T5 = Instance.new("TextButton")
+local T10 = Instance.new("TextButton")
+local T1 = Instance.new("TextButton")
+local Teleport_2 = Instance.new("TextButton")
+local BuyEgg = Instance.new("Frame")
+local T6_2 = Instance.new("TextButton")
+local T7_2 = Instance.new("TextButton")
+local T2_2 = Instance.new("TextButton")
+local T3_2 = Instance.new("TextButton")
+local T8_2 = Instance.new("TextButton")
+local T4_2 = Instance.new("TextButton")
+local T9_2 = Instance.new("TextButton")
+local T5_2 = Instance.new("TextButton")
+local T10_2 = Instance.new("TextButton")
+local T1_2 = Instance.new("TextButton")
+local Teleport_3 = Instance.new("TextButton")
+--Properties:
+PetTrainerGui.Name = "PetTrainerGui"
+PetTrainerGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+SploitFrame.Name = "SploitFrame"
+SploitFrame.Parent = PetTrainerGui
+SploitFrame.Active = true
+SploitFrame.BackgroundColor3 = Color3.new(1, 1, 1)
+SploitFrame.BackgroundTransparency = 0.30000001192093
+SploitFrame.BorderColor3 = Color3.new(0, 0, 0)
+SploitFrame.BorderSizePixel = 3
+SploitFrame.Draggable = true
+SploitFrame.Position = UDim2.new(0.344791681, 0, 0.227777779, 0)
+SploitFrame.Selectable = true
+SploitFrame.Size = UDim2.new(0, 250, 0, 438)
+
+MainHeader.Name = "MainHeader"
+MainHeader.Parent = SploitFrame
+MainHeader.BackgroundColor3 = Color3.new(1, 1, 1)
+MainHeader.BorderColor3 = Color3.new(0, 0, 0)
+MainHeader.Draggable = true
+MainHeader.Position = UDim2.new(0.0280000009, 0, 0.015208466, 0)
+MainHeader.Size = UDim2.new(0, 235, 0, 38)
+
+CloseAnalogGui.Name = "CloseAnalogGui"
+CloseAnalogGui.Parent = MainHeader
+CloseAnalogGui.BackgroundColor3 = Color3.new(0.290196, 0, 0)
+CloseAnalogGui.BorderColor3 = Color3.new(0.290196, 0, 0)
+CloseAnalogGui.BorderSizePixel = 0
+CloseAnalogGui.Position = UDim2.new(0.882025719, 0, 0.0191661734, 0)
+CloseAnalogGui.Size = UDim2.new(0, 28, 0, 35)
+CloseAnalogGui.Style = Enum.ButtonStyle.RobloxButton
+CloseAnalogGui.Font = Enum.Font.SourceSans
+CloseAnalogGui.Text = "X"
+CloseAnalogGui.TextColor3 = Color3.new(1, 1, 1)
+CloseAnalogGui.TextSize = 25
+
+Title.Name = "Title"
+Title.Parent = MainHeader
+Title.BackgroundColor3 = Color3.new(0.290196, 0, 0)
+Title.BorderColor3 = Color3.new(0.290196, 0, 0)
+Title.Position = UDim2.new(0.00741694123, 0, 0.0277782232, 0)
+Title.Size = UDim2.new(0, 196, 0, 35)
+Title.Style = Enum.ButtonStyle.RobloxButton
+Title.Font = Enum.Font.SourceSansSemibold
+Title.Text = "Pet Trainer v.1"
+Title.TextColor3 = Color3.new(1, 1, 1)
+Title.TextSize = 20
+Title.TextStrokeTransparency = 0
+
+LogoFrame.Name = "LogoFrame"
+LogoFrame.Parent = SploitFrame
+LogoFrame.BackgroundColor3 = Color3.new(1, 1, 1)
+LogoFrame.BorderColor3 = Color3.new(0, 0, 0)
+LogoFrame.Position = UDim2.new(0.0279999971, 0, 0.116091318, 0)
+LogoFrame.Size = UDim2.new(0, 235, 0, 110)
+
+AnalogLogo.Name = "AnalogLogo"
+AnalogLogo.Parent = LogoFrame
+AnalogLogo.BackgroundColor3 = Color3.new(1, 1, 1)
+AnalogLogo.BackgroundTransparency = 0.10000000149012
+AnalogLogo.BorderColor3 = Color3.new(0.333333, 0, 0)
+AnalogLogo.Position = UDim2.new(0.0260912217, 0, 0.0435241014, 0)
+AnalogLogo.Size = UDim2.new(0, 100, 0, 100)
+AnalogLogo.Image = "rbxassetid://1509886890"
+
+AutoFarmBtn.Name = "AutoFarmBtn"
+AutoFarmBtn.Parent = LogoFrame
+AutoFarmBtn.BackgroundColor3 = Color3.new(0.290196, 0, 0)
+AutoFarmBtn.BorderColor3 = Color3.new(0.290196, 0, 0)
+AutoFarmBtn.BorderSizePixel = 0
+AutoFarmBtn.Position = UDim2.new(0.502142787, 0, 0.176074952, 0)
+AutoFarmBtn.Size = UDim2.new(0, 107, 0, 35)
+AutoFarmBtn.Style = Enum.ButtonStyle.RobloxButton
+AutoFarmBtn.Font = Enum.Font.SourceSansSemibold
+AutoFarmBtn.Text = "Auto Farm"
+AutoFarmBtn.TextColor3 = Color3.new(1, 1, 1)
+AutoFarmBtn.TextSize = 15
+AutoFarmBtn.TextStrokeTransparency = 0
+AutoFarmBtn.TextWrapped = true
+
+RunSpeed.Name = "Run Speed"
+RunSpeed.Parent = LogoFrame
+RunSpeed.BackgroundColor3 = Color3.new(0.290196, 0, 0)
+RunSpeed.BorderColor3 = Color3.new(0.290196, 0, 0)
+RunSpeed.BorderSizePixel = 0
+RunSpeed.Position = UDim2.new(0.502142787, 0, 0.494256735, 0)
+RunSpeed.Size = UDim2.new(0, 107, 0, 35)
+RunSpeed.Style = Enum.ButtonStyle.RobloxButton
+RunSpeed.Font = Enum.Font.SourceSansSemibold
+RunSpeed.Text = "Speed Boost"
+RunSpeed.TextColor3 = Color3.new(1, 1, 1)
+RunSpeed.TextSize = 15
+RunSpeed.TextStrokeTransparency = 0
+RunSpeed.TextWrapped = true
+
+Teleport.Name = "Teleport"
+Teleport.Parent = SploitFrame
+Teleport.BackgroundColor3 = Color3.new(1, 1, 1)
+Teleport.BorderColor3 = Color3.new(0, 0, 0)
+Teleport.Position = UDim2.new(0.0279999971, 0, 0.369091332, 0)
+Teleport.Size = UDim2.new(0, 235, 0, 135)
+
+T6.Name = "T6"
+T6.Parent = Teleport
+T6.BackgroundColor3 = Color3.new(0.290196, 0, 0)
+T6.BorderColor3 = Color3.new(0.290196, 0, 0)
+T6.BorderSizePixel = 0
+T6.Position = UDim2.new(0.00607948564, 0, 0.61288774, 0)
+T6.Size = UDim2.new(0, 49, 0, 43)
+T6.Style = Enum.ButtonStyle.RobloxButton
+T6.Font = Enum.Font.SourceSansSemibold
+T6.Text = "6"
+T6.TextColor3 = Color3.new(1, 1, 1)
+T6.TextSize = 20
+T6.TextStrokeTransparency = 0
+T6.TextWrapped = true
+T6.TextYAlignment = Enum.TextYAlignment.Bottom
+
+T7.Name = "T7"
+T7.Parent = Teleport
+T7.BackgroundColor3 = Color3.new(0.290196, 0, 0)
+T7.BorderColor3 = Color3.new(0.290196, 0, 0)
+T7.BorderSizePixel = 0
+T7.Position = UDim2.new(0.202185854, 0, 0.61288774, 0)
+T7.Size = UDim2.new(0, 49, 0, 43)
+T7.Style = Enum.ButtonStyle.RobloxButton
+T7.Font = Enum.Font.SourceSansSemibold
+T7.Text = "7"
+T7.TextColor3 = Color3.new(1, 1, 1)
+T7.TextSize = 20
+T7.TextStrokeTransparency = 0
+T7.TextWrapped = true
+T7.TextYAlignment = Enum.TextYAlignment.Bottom
+
+T2.Name = "T2"
+T2.Parent = Teleport
+T2.BackgroundColor3 = Color3.new(0.290196, 0, 0)
+T2.BorderColor3 = Color3.new(0.290196, 0, 0)
+T2.BorderSizePixel = 0
+T2.Position = UDim2.new(0.208372355, 0, 0.31546244, 0)
+T2.Size = UDim2.new(0, 49, 0, 43)
+T2.Style = Enum.ButtonStyle.RobloxButton
+T2.Font = Enum.Font.SourceSansSemibold
+T2.Text = "2"
+T2.TextColor3 = Color3.new(1, 1, 1)
+T2.TextSize = 20
+T2.TextStrokeTransparency = 0
+T2.TextWrapped = true
+T2.TextYAlignment = Enum.TextYAlignment.Bottom
+
+T3.Name = "T3"
+T3.Parent = Teleport
+T3.BackgroundColor3 = Color3.new(0.290196, 0, 0)
+T3.BorderColor3 = Color3.new(0.290196, 0, 0)
+T3.BorderSizePixel = 0
+T3.Position = UDim2.new(0.403104305, 0, 0.31546244, 0)
+T3.Size = UDim2.new(0, 49, 0, 43)
+T3.Style = Enum.ButtonStyle.RobloxButton
+T3.Font = Enum.Font.SourceSansSemibold
+T3.Text = "3"
+T3.TextColor3 = Color3.new(1, 1, 1)
+T3.TextSize = 20
+T3.TextStrokeTransparency = 0
+T3.TextWrapped = true
+T3.TextYAlignment = Enum.TextYAlignment.Bottom
+
+T8.Name = "T8"
+T8.Parent = Teleport
+T8.BackgroundColor3 = Color3.new(0.290196, 0, 0)
+T8.BorderColor3 = Color3.new(0.290196, 0, 0)
+T8.BorderSizePixel = 0
+T8.Position = UDim2.new(0.398848981, 0, 0.61288774, 0)
+T8.Size = UDim2.new(0, 49, 0, 43)
+T8.Style = Enum.ButtonStyle.RobloxButton
+T8.Font = Enum.Font.SourceSansSemibold
+T8.Text = "8"
+T8.TextColor3 = Color3.new(1, 1, 1)
+T8.TextSize = 20
+T8.TextStrokeTransparency = 0
+T8.TextWrapped = true
+T8.TextYAlignment = Enum.TextYAlignment.Bottom
+
+T4.Name = "T4"
+T4.Parent = Teleport
+T4.BackgroundColor3 = Color3.new(0.290196, 0, 0)
+T4.BorderColor3 = Color3.new(0.290196, 0, 0)
+T4.BorderSizePixel = 0
+T4.Position = UDim2.new(0.598323524, 0, 0.31546244, 0)
+T4.Size = UDim2.new(0, 49, 0, 43)
+T4.Style = Enum.ButtonStyle.RobloxButton
+T4.Font = Enum.Font.SourceSansSemibold
+T4.Text = "4"
+T4.TextColor3 = Color3.new(1, 1, 1)
+T4.TextSize = 20
+T4.TextStrokeTransparency = 0
+T4.TextWrapped = true
+T4.TextYAlignment = Enum.TextYAlignment.Bottom
+
+T9.Name = "T9"
+T9.Parent = Teleport
+T9.BackgroundColor3 = Color3.new(0.290196, 0, 0)
+T9.BorderColor3 = Color3.new(0.290196, 0, 0)
+T9.BorderSizePixel = 0
+T9.Position = UDim2.new(0.59406817, 0, 0.61288774, 0)
+T9.Size = UDim2.new(0, 49, 0, 43)
+T9.Style = Enum.ButtonStyle.RobloxButton
+T9.Font = Enum.Font.SourceSansSemibold
+T9.Text = "9"
+T9.TextColor3 = Color3.new(1, 1, 1)
+T9.TextSize = 20
+T9.TextStrokeTransparency = 0
+T9.TextWrapped = true
+T9.TextYAlignment = Enum.TextYAlignment.Bottom
+
+T5.Name = "T5"
+T5.Parent = Teleport
+T5.BackgroundColor3 = Color3.new(0.290196, 0, 0)
+T5.BorderColor3 = Color3.new(0.290196, 0, 0)
+T5.BorderSizePixel = 0
+T5.Position = UDim2.new(0.781590402, 0, 0.31546244, 0)
+T5.Size = UDim2.new(0, 49, 0, 43)
+T5.Style = Enum.ButtonStyle.RobloxButton
+T5.Font = Enum.Font.SourceSansSemibold
+T5.Text = "5"
+T5.TextColor3 = Color3.new(1, 1, 1)
+T5.TextSize = 20
+T5.TextStrokeTransparency = 0
+T5.TextWrapped = true
+T5.TextYAlignment = Enum.TextYAlignment.Bottom
+
+T10.Name = "T10"
+T10.Parent = Teleport
+T10.BackgroundColor3 = Color3.new(0.290196, 0, 0)
+T10.BorderColor3 = Color3.new(0.290196, 0, 0)
+T10.BorderSizePixel = 0
+T10.Position = UDim2.new(0.777335048, 0, 0.61288774, 0)
+T10.Size = UDim2.new(0, 49, 0, 43)
+T10.Style = Enum.ButtonStyle.RobloxButton
+T10.Font = Enum.Font.SourceSansSemibold
+T10.Text = "10"
+T10.TextColor3 = Color3.new(1, 1, 1)
+T10.TextSize = 20
+T10.TextStrokeTransparency = 0
+T10.TextWrapped = true
+T10.TextYAlignment = Enum.TextYAlignment.Bottom
+
+T1.Name = "T1"
+T1.Parent = Teleport
+T1.BackgroundColor3 = Color3.new(0.290196, 0, 0)
+T1.BorderColor3 = Color3.new(0.290196, 0, 0)
+T1.BorderSizePixel = 0
+T1.Position = UDim2.new(0.0115004517, 0, 0.31546244, 0)
+T1.Size = UDim2.new(0, 49, 0, 43)
+T1.Style = Enum.ButtonStyle.RobloxButton
+T1.Font = Enum.Font.SourceSansSemibold
+T1.Text = "1"
+T1.TextColor3 = Color3.new(1, 1, 1)
+T1.TextSize = 20
+T1.TextStrokeTransparency = 0
+T1.TextWrapped = true
+T1.TextYAlignment = Enum.TextYAlignment.Bottom
+
+Teleport_2.Name = "Teleport"
+Teleport_2.Parent = Teleport
+Teleport_2.BackgroundColor3 = Color3.new(0.290196, 0, 0)
+Teleport_2.BorderColor3 = Color3.new(0.290196, 0, 0)
+Teleport_2.BorderSizePixel = 0
+Teleport_2.Position = UDim2.new(0.0135349724, 0, 0.0607432425, 0)
+Teleport_2.Size = UDim2.new(0, 230, 0, 35)
+Teleport_2.Style = Enum.ButtonStyle.RobloxButton
+Teleport_2.Font = Enum.Font.SourceSansSemibold
+Teleport_2.Text = "Teleport"
+Teleport_2.TextColor3 = Color3.new(1, 1, 1)
+Teleport_2.TextSize = 20
+Teleport_2.TextStrokeTransparency = 0
+
+BuyEgg.Name = "BuyEgg"
+BuyEgg.Parent = SploitFrame
+BuyEgg.BackgroundColor3 = Color3.new(1, 1, 1)
+BuyEgg.BorderColor3 = Color3.new(0, 0, 0)
+BuyEgg.Position = UDim2.new(0.0279999971, 0, 0.67709136, 0)
+BuyEgg.Size = UDim2.new(0, 235, 0, 135)
+
+T6_2.Name = "T6"
+T6_2.Parent = BuyEgg
+T6_2.BackgroundColor3 = Color3.new(0.290196, 0, 0)
+T6_2.BorderColor3 = Color3.new(0.290196, 0, 0)
+T6_2.BorderSizePixel = 0
+T6_2.Position = UDim2.new(0.00607948564, 0, 0.61288774, 0)
+T6_2.Size = UDim2.new(0, 49, 0, 43)
+T6_2.Style = Enum.ButtonStyle.RobloxButton
+T6_2.Font = Enum.Font.SourceSansSemibold
+T6_2.Text = "6"
+T6_2.TextColor3 = Color3.new(1, 1, 1)
+T6_2.TextSize = 20
+T6_2.TextStrokeTransparency = 0
+T6_2.TextWrapped = true
+T6_2.TextYAlignment = Enum.TextYAlignment.Bottom
+
+T7_2.Name = "T7"
+T7_2.Parent = BuyEgg
+T7_2.BackgroundColor3 = Color3.new(0.290196, 0, 0)
+T7_2.BorderColor3 = Color3.new(0.290196, 0, 0)
+T7_2.BorderSizePixel = 0
+T7_2.Position = UDim2.new(0.202185854, 0, 0.61288774, 0)
+T7_2.Size = UDim2.new(0, 49, 0, 43)
+T7_2.Style = Enum.ButtonStyle.RobloxButton
+T7_2.Font = Enum.Font.SourceSansSemibold
+T7_2.Text = "7"
+T7_2.TextColor3 = Color3.new(1, 1, 1)
+T7_2.TextSize = 20
+T7_2.TextStrokeTransparency = 0
+T7_2.TextWrapped = true
+T7_2.TextYAlignment = Enum.TextYAlignment.Bottom
+
+T2_2.Name = "T2"
+T2_2.Parent = BuyEgg
+T2_2.BackgroundColor3 = Color3.new(0.290196, 0, 0)
+T2_2.BorderColor3 = Color3.new(0.290196, 0, 0)
+T2_2.BorderSizePixel = 0
+T2_2.Position = UDim2.new(0.208372355, 0, 0.31546244, 0)
+T2_2.Size = UDim2.new(0, 49, 0, 43)
+T2_2.Style = Enum.ButtonStyle.RobloxButton
+T2_2.Font = Enum.Font.SourceSansSemibold
+T2_2.Text = "2"
+T2_2.TextColor3 = Color3.new(1, 1, 1)
+T2_2.TextSize = 20
+T2_2.TextStrokeTransparency = 0
+T2_2.TextWrapped = true
+T2_2.TextYAlignment = Enum.TextYAlignment.Bottom
+
+T3_2.Name = "T3"
+T3_2.Parent = BuyEgg
+T3_2.BackgroundColor3 = Color3.new(0.290196, 0, 0)
+T3_2.BorderColor3 = Color3.new(0.290196, 0, 0)
+T3_2.BorderSizePixel = 0
+T3_2.Position = UDim2.new(0.403104305, 0, 0.31546244, 0)
+T3_2.Size = UDim2.new(0, 49, 0, 43)
+T3_2.Style = Enum.ButtonStyle.RobloxButton
+T3_2.Font = Enum.Font.SourceSansSemibold
+T3_2.Text = "3"
+T3_2.TextColor3 = Color3.new(1, 1, 1)
+T3_2.TextSize = 20
+T3_2.TextStrokeTransparency = 0
+T3_2.TextWrapped = true
+T3_2.TextYAlignment = Enum.TextYAlignment.Bottom
+
+T8_2.Name = "T8"
+T8_2.Parent = BuyEgg
+T8_2.BackgroundColor3 = Color3.new(0.290196, 0, 0)
+T8_2.BorderColor3 = Color3.new(0.290196, 0, 0)
+T8_2.BorderSizePixel = 0
+T8_2.Position = UDim2.new(0.398848981, 0, 0.61288774, 0)
+T8_2.Size = UDim2.new(0, 49, 0, 43)
+T8_2.Style = Enum.ButtonStyle.RobloxButton
+T8_2.Font = Enum.Font.SourceSansSemibold
+T8_2.Text = "8"
+T8_2.TextColor3 = Color3.new(1, 1, 1)
+T8_2.TextSize = 20
+T8_2.TextStrokeTransparency = 0
+T8_2.TextWrapped = true
+T8_2.TextYAlignment = Enum.TextYAlignment.Bottom
+
+T4_2.Name = "T4"
+T4_2.Parent = BuyEgg
+T4_2.BackgroundColor3 = Color3.new(0.290196, 0, 0)
+T4_2.BorderColor3 = Color3.new(0.290196, 0, 0)
+T4_2.BorderSizePixel = 0
+T4_2.Position = UDim2.new(0.598323524, 0, 0.31546244, 0)
+T4_2.Size = UDim2.new(0, 49, 0, 43)
+T4_2.Style = Enum.ButtonStyle.RobloxButton
+T4_2.Font = Enum.Font.SourceSansSemibold
+T4_2.Text = "4"
+T4_2.TextColor3 = Color3.new(1, 1, 1)
+T4_2.TextSize = 20
+T4_2.TextStrokeTransparency = 0
+T4_2.TextWrapped = true
+T4_2.TextYAlignment = Enum.TextYAlignment.Bottom
+
+T9_2.Name = "T9"
+T9_2.Parent = BuyEgg
+T9_2.BackgroundColor3 = Color3.new(0.290196, 0, 0)
+T9_2.BorderColor3 = Color3.new(0.290196, 0, 0)
+T9_2.BorderSizePixel = 0
+T9_2.Position = UDim2.new(0.59406817, 0, 0.61288774, 0)
+T9_2.Size = UDim2.new(0, 49, 0, 43)
+T9_2.Style = Enum.ButtonStyle.RobloxButton
+T9_2.Font = Enum.Font.SourceSansSemibold
+T9_2.Text = "9"
+T9_2.TextColor3 = Color3.new(1, 1, 1)
+T9_2.TextSize = 20
+T9_2.TextStrokeTransparency = 0
+T9_2.TextWrapped = true
+T9_2.TextYAlignment = Enum.TextYAlignment.Bottom
+
+T5_2.Name = "T5"
+T5_2.Parent = BuyEgg
+T5_2.BackgroundColor3 = Color3.new(0.290196, 0, 0)
+T5_2.BorderColor3 = Color3.new(0.290196, 0, 0)
+T5_2.BorderSizePixel = 0
+T5_2.Position = UDim2.new(0.781590402, 0, 0.31546244, 0)
+T5_2.Size = UDim2.new(0, 49, 0, 43)
+T5_2.Style = Enum.ButtonStyle.RobloxButton
+T5_2.Font = Enum.Font.SourceSansSemibold
+T5_2.Text = "5"
+T5_2.TextColor3 = Color3.new(1, 1, 1)
+T5_2.TextSize = 20
+T5_2.TextStrokeTransparency = 0
+T5_2.TextWrapped = true
+T5_2.TextYAlignment = Enum.TextYAlignment.Bottom
+
+T10_2.Name = "T10"
+T10_2.Parent = BuyEgg
+T10_2.BackgroundColor3 = Color3.new(0.290196, 0, 0)
+T10_2.BorderColor3 = Color3.new(0.290196, 0, 0)
+T10_2.BorderSizePixel = 0
+T10_2.Position = UDim2.new(0.777335048, 0, 0.61288774, 0)
+T10_2.Size = UDim2.new(0, 49, 0, 43)
+T10_2.Style = Enum.ButtonStyle.RobloxButton
+T10_2.Font = Enum.Font.SourceSansSemibold
+T10_2.Text = "10"
+T10_2.TextColor3 = Color3.new(1, 1, 1)
+T10_2.TextSize = 20
+T10_2.TextStrokeTransparency = 0
+T10_2.TextWrapped = true
+T10_2.TextYAlignment = Enum.TextYAlignment.Bottom
+
+T1_2.Name = "T1"
+T1_2.Parent = BuyEgg
+T1_2.BackgroundColor3 = Color3.new(0.290196, 0, 0)
+T1_2.BorderColor3 = Color3.new(0.290196, 0, 0)
+T1_2.BorderSizePixel = 0
+T1_2.Position = UDim2.new(0.0115004517, 0, 0.31546244, 0)
+T1_2.Size = UDim2.new(0, 49, 0, 43)
+T1_2.Style = Enum.ButtonStyle.RobloxButton
+T1_2.Font = Enum.Font.SourceSansSemibold
+T1_2.Text = "1"
+T1_2.TextColor3 = Color3.new(1, 1, 1)
+T1_2.TextSize = 20
+T1_2.TextStrokeTransparency = 0
+T1_2.TextWrapped = true
+T1_2.TextYAlignment = Enum.TextYAlignment.Bottom
+
+Teleport_3.Name = "Teleport"
+Teleport_3.Parent = BuyEgg
+Teleport_3.BackgroundColor3 = Color3.new(0.290196, 0, 0)
+Teleport_3.BorderColor3 = Color3.new(0.290196, 0, 0)
+Teleport_3.BorderSizePixel = 0
+Teleport_3.Position = UDim2.new(0.0135349724, 0, 0.0607432425, 0)
+Teleport_3.Size = UDim2.new(0, 230, 0, 35)
+Teleport_3.Style = Enum.ButtonStyle.RobloxButton
+Teleport_3.Font = Enum.Font.SourceSansSemibold
+Teleport_3.Text = "Buy 1x Egg Type"
+Teleport_3.TextColor3 = Color3.new(1, 1, 1)
+Teleport_3.TextSize = 20
+Teleport_3.TextStrokeTransparency = 0
+
+--Buttons
+
+AutoFarmBtn.MouseButton1Click:connect(function()
+
+while true do
+lowest = 1000000000000
+itemId = 0
+for i,v in pairs(workspace.FarmEntities:GetChildren()) do
+if (game.Players.LocalPlayer.Character.HumanoidRootPart.Position - v.base.Position).magnitude < lowest then
+lowest = (game.Players.LocalPlayer.Character.HumanoidRootPart.Position - v.base.Position).magnitude
+itemId = v.Name
+end
+end
+game.ReplicatedStorage.Common.EventManager.StartFarm:FireServer(itemId,true)
+wait(0.1)
+end
+
+--Teleport buttons
+
+T1.MouseButton1Click:connect(function()
+  game.Players.LocalPlayer.Character:MoveTo(Vector3.new(23.47, 1077.766, 1621.284))
+
+T2.MouseButton1Click:connect(function()
+  game.Players.LocalPlayer.Character:MoveTo(Vector3.new(31.94, 1077.604, 2164.058))
+
+T3.MouseButton1Click:connect(function()
+  game.Players.LocalPlayer.Character:MoveTo(Vector3.new(58.001, 1077.603, 2438.148))
+
+T4.MouseButton1Click:connect(function()
+  game.Players.LocalPlayer.Character:MoveTo(Vector3.new(350.819, 1077.604, 2657.704))
+
+T5.MouseButton1Click:connect(function()
+  game.Players.LocalPlayer.Character:MoveTo(Vector3.new(258.012, 1077.604, 2898.332))
+
+T6.MouseButton1Click:connect(function()
+  game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-7.51, 1078.285, 3552.195))
+
+--Buy Egg
+
+T1_2.MouseButton1Click:connect(function()
+  local A_1 = "1"
+  local A_2 = false
+  local Event = game:GetService("ReplicatedStorage").Common.EventManager.EggPurchase
+  Event:InvokeServer(A_1, A_2)
+
+T2_2.MouseButton1Click:connect(function()
+  local A_1 = "2"
+  local A_2 = false
+  local Event = game:GetService("ReplicatedStorage").Common.EventManager.EggPurchase
+  Event:InvokeServer(A_1, A_2)
+  
+T3_2.MouseButton1Click:connect(function()
+  local A_1 = "3"
+  local A_2 = false
+  local Event = game:GetService("ReplicatedStorage").Common.EventManager.EggPurchase
+  Event:InvokeServer(A_1, A_2)
+
+T4_2.MouseButton1Click:connect(function()
+  local A_1 = "4"
+  local A_2 = false
+  local Event = game:GetService("ReplicatedStorage").Common.EventManager.EggPurchase
+  Event:InvokeServer(A_1, A_2)
+
+T5_2.MouseButton1Click:connect(function()
+  local A_1 = "5"
+  local A_2 = false
+  local Event = game:GetService("ReplicatedStorage").Common.EventManager.EggPurchase
+  Event:InvokeServer(A_1, A_2)
+
+T6_2.MouseButton1Click:connect(function()
+  local A_1 = "6"
+  local A_2 = false
+  local Event = game:GetService("ReplicatedStorage").Common.EventManager.EggPurchase
+  Event:InvokeServer(A_1, A_2)
+
+
+
+-- Scripts:
