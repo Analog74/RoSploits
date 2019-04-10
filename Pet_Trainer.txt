@@ -510,25 +510,25 @@ wait(0.1)
 end
 
 --Teleport buttons
-
+end)
 T1.MouseButton1Click:connect(function()
   game.Players.LocalPlayer.Character:MoveTo(Vector3.new(23.47, 1077.766, 1621.284))
-
+end)
 T2.MouseButton1Click:connect(function()
   game.Players.LocalPlayer.Character:MoveTo(Vector3.new(31.94, 1077.604, 2164.058))
-
+end)
 T3.MouseButton1Click:connect(function()
   game.Players.LocalPlayer.Character:MoveTo(Vector3.new(58.001, 1077.603, 2438.148))
-
+end)
 T4.MouseButton1Click:connect(function()
   game.Players.LocalPlayer.Character:MoveTo(Vector3.new(350.819, 1077.604, 2657.704))
-
+end)
 T5.MouseButton1Click:connect(function()
   game.Players.LocalPlayer.Character:MoveTo(Vector3.new(258.012, 1077.604, 2898.332))
-
+end)
 T6.MouseButton1Click:connect(function()
   game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-7.51, 1078.285, 3552.195))
-
+end)
 --Buy Egg
 
 T1_2.MouseButton1Click:connect(function()
@@ -536,37 +536,37 @@ T1_2.MouseButton1Click:connect(function()
   local A_2 = false
   local Event = game:GetService("ReplicatedStorage").Common.EventManager.EggPurchase
   Event:InvokeServer(A_1, A_2)
-
+end)
 T2_2.MouseButton1Click:connect(function()
   local A_1 = "2"
   local A_2 = false
   local Event = game:GetService("ReplicatedStorage").Common.EventManager.EggPurchase
   Event:InvokeServer(A_1, A_2)
-  
+  end)
 T3_2.MouseButton1Click:connect(function()
   local A_1 = "3"
   local A_2 = false
   local Event = game:GetService("ReplicatedStorage").Common.EventManager.EggPurchase
   Event:InvokeServer(A_1, A_2)
-
+end)
 T4_2.MouseButton1Click:connect(function()
   local A_1 = "4"
   local A_2 = false
   local Event = game:GetService("ReplicatedStorage").Common.EventManager.EggPurchase
   Event:InvokeServer(A_1, A_2)
-
+end)
 T5_2.MouseButton1Click:connect(function()
   local A_1 = "5"
   local A_2 = false
   local Event = game:GetService("ReplicatedStorage").Common.EventManager.EggPurchase
   Event:InvokeServer(A_1, A_2)
-
+end)
 T6_2.MouseButton1Click:connect(function()
   local A_1 = "6"
   local A_2 = false
   local Event = game:GetService("ReplicatedStorage").Common.EventManager.EggPurchase
   Event:InvokeServer(A_1, A_2)
-
+end)
 
 
 -- Scripts:
